@@ -6,12 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+scipy = "<1.5.0"
 smelli = "*"
 requests = "*"
 rise = "*"
 matplotlib = "*"
 jupyter = "*"
 pandas = "*"
+iminuit = "*"
+snakeviz = "*"
 
 [requires]
 python_version = "3.8"
